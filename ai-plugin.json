@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Sentiment Analysis Plugin",
+  "name_for_model": "sentiment_analysis",
+  "description_for_human": "Plugin for performing sentiment analysis on provided text. It uses Google Natural Language API.",
+  "description_for_model": "Plugin for performing sentiment analysis. It takes a text input and returns sentiment score using Google Natural Language API.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "http://localhost:8080/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://sentimentanalysistool.lhanthel.repl.co/logo.png",
+  "contact_email": "support@yourdomain.com",
+  "legal_info_url": "https://sentimentanalysistool.lhanthel.repl.co/legal"
+}
